@@ -1,0 +1,21 @@
+{
+  "description": "Assign custom security attribute keys and values to supported Microsoft Entra objects.",
+  "displayName": "Attribute Assignment Administrator",
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/azureManagedIdentities/customSecurityAttributes/read",
+        "microsoft.directory/azureManagedIdentities/customSecurityAttributes/update",
+        "microsoft.directory/attributeSets/allProperties/read",
+        "microsoft.directory/customSecurityAttributeDefinitions/allProperties/read",
+        "microsoft.directory/devices/customSecurityAttributes/read",
+        "microsoft.directory/devices/customSecurityAttributes/update",
+        "microsoft.directory/servicePrincipals/customSecurityAttributes/read",
+        "microsoft.directory/servicePrincipals/customSecurityAttributes/update",
+        "microsoft.directory/users/customSecurityAttributes/read",
+        "microsoft.directory/users/customSecurityAttributes/update"
+      ],
+      "condition": null
+    }
+  ]
+}

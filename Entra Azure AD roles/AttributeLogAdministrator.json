@@ -1,0 +1,13 @@
+{
+  "description": "Read audit logs and configure diagnostic settings for events related to custom security attributes.",
+  "displayName": "Attribute Log Administrator",
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/customSecurityAttributeAuditLogs/allProperties/read",
+        "microsoft.azure.customSecurityAttributeDiagnosticSettings/allEntities/allProperties/allTasks"
+      ],
+      "condition": null
+    }
+  ]
+}

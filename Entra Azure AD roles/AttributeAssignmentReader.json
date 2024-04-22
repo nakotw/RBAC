@@ -1,0 +1,17 @@
+{
+  "description": "Read custom security attribute keys and values for supported Microsoft Entra objects.",
+  "displayName": "Attribute Assignment Reader",
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/attributeSets/allProperties/read",
+        "microsoft.directory/azureManagedIdentities/customSecurityAttributes/read",
+        "microsoft.directory/customSecurityAttributeDefinitions/allProperties/read",
+        "microsoft.directory/devices/customSecurityAttributes/read",
+        "microsoft.directory/servicePrincipals/customSecurityAttributes/read",
+        "microsoft.directory/users/customSecurityAttributes/read"
+      ],
+      "condition": null
+    }
+  ]
+}

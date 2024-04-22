@@ -1,0 +1,14 @@
+{
+  "description": "Create and manage all aspects of workflows and tasks associated with Lifecycle Workflows in Microsoft Entra ID.",
+  "displayName": "Lifecycle Workflows Administrator",
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/lifecycleWorkflows/workflows/allProperties/allTasks",
+        "microsoft.directory/organization/strongAuthentication/read",
+        "microsoft.directory/users/lifeCycleInfo/read"
+      ],
+      "condition": null
+    }
+  ]
+}
